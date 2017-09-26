@@ -7,6 +7,7 @@ public class Test {
 		String str="sdjkasnsq";
 		String s2=str.replace("s","");
 		System.out.println(s2);
+		System.out.println("success");
 	}
 
 }
