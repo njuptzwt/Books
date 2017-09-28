@@ -25,7 +25,7 @@ public class Queue {
 				for (int j = 1; j < list.size(); j++)
 					if (temp>list.get(j))
 						{
-						temp=list.get(j);//后面比前面大，换数：
+						temp=list.get(j);//后面比前面大，换数：//这个逻辑存在问题！不能达到最小的要求！
 						}
 					else
 					{
