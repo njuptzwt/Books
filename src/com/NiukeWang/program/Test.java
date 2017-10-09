@@ -7,9 +7,13 @@ public class Test {
 //		String str="sdjkasnsq";
 //		String s2=str.replace("s","");
 //		System.out.println(s2);
-		int a[]=new int[10];
-		for(int i=0;i<a.length;i++)
-			System.out.println(a[i]);
+//		int a[]=new int[10];
+//		for(int i=0;i<a.length;i++)
+//			System.out.println(a[i]);
+		StringBuilder sb=new StringBuilder();
+		String s="ddjdks";
+		sb.append(s);
+		System.out.println(sb.toString());
 	}
 
 }
