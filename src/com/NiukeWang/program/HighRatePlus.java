@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 /**
  * 高精度的加法计算,加法操作容易实现，减法操作，加一个负数
+ * 实现了BigInteger类型的加操作~，BigInteger和BigDecimal的使用
  * 
  * @author 18362
  *
