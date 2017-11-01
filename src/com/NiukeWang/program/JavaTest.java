@@ -8,6 +8,12 @@ package com.NiukeWang.program;
  * @author 18362
  *
  *
+ *这里要特殊考虑String，以及Integer、Double等几个基本类型包装类，它们都是immutable类型，
+    因为没有提供自身修改的函数，每次操作都是新生成一个对象，所以要特殊对待，可以认为是和基本数据类型相似，传值操作。
+ *
+ *
+ *
+ *
  *类方法中的参数,例如Change(Integer a, String str)
  *我们称之为局部变量，局部变量，在方法结束之后自动销毁！！！变量的生命周期！
  *当某处调用方法的时候：
@@ -37,7 +43,7 @@ public class JavaTest
 	 */
 	public static void change(String str)
 	{
-		str=str+"world";
+		str=str+"world";//String,Integer,Double这些没有提供自身修改的函数，每次修改操作都是需要重新new一个对象！
 	}
 	/**
 	 * 测试stringBuffer的传递和StringBuilder一个类型，传递引用值
